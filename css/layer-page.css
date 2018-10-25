@@ -1,0 +1,74 @@
+body, html {
+    min-width: auto;
+}
+
+.layui-layer-setwin {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    top: 0 !important;
+    right: 0 !important;
+}
+
+.layui-layer-title {
+    color: black;
+    font-weight: bolder;
+    height: 50px !important;
+    line-height: 50px !important;
+}
+.layui-layer-setwin:hover {
+    background-color: #F5F8F8;
+}
+
+.layui-layer-setwin a {
+    margin-left: 8px !important;
+    margin-top: 10px !important;
+}
+
+.layui-layer-iframe .layui-layer-btn, .layui-layer-page .layui-layer-btn {
+    padding: 0px 25px 20px !important;
+}
+
+.layui-layer-btn a.layui-layer-btn0 {
+    height: 28px;
+    line-height: 28px;
+    margin: 5px 5px 0;
+    padding: 0 15px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    color: #333;
+    border-radius: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.layui-layer-btn a.layui-layer-btn1 {
+    background-color: #188AE2;
+    border-color: #188AE2;
+    color: #fff;
+}
+
+.layui-layer-btn a {
+    margin: 5px 10px 0!important;
+    padding: 4px 25px !important;
+    border-radius: 4px!important;
+}
+.layui-layer-btn a{
+    height: auto!important;
+    line-height: normal!important;
+}
+
+.layui-layer-msg{
+    z-index: 9999999999!important;
+}
+
+.layui-btn-primary{
+     border:none;
+     background-color: transparent;!important;
+    color: #188AE2;
+}
+
+.layui-table-cell .layui-table-link{
+    color: #188AE2;
+}
